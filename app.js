@@ -53,5 +53,6 @@ function sortearNome() {
     let amigoSorteado = nomesSorteio[amigoAleatorio];
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `Amigo sorteado: <strong>${amigoSorteado}</strong>`;
+    listaAmigos.innerHTML = ""
     }
 }
